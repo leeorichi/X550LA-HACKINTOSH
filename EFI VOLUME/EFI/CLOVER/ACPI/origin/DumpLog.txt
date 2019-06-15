@@ -1,0 +1,143 @@
+1:499  0:814  Found BIOS RSDP at F0000
+1:499  0:000  Printing ACPI tables from RSDP F0000 ...
+1:499  0:000   F0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+1:499  0:000    (Xsdt: BEB1C090, Rsdt: BEB1C028)
+1:499  0:000    BEB1C090: 'XSDT', 'Notebook', Rev: 1, Len: 164
+1:499  0:000    BEB1C028: 'RSDT', 'Notebook', Rev: 1, Len: 100
+1:499  0:000    Tables in Xsdt: 16
+1:499  0:000    0. BEB31EE8: 'FACP', 'Notebook', Rev: 5, Len: 268
+1:499  0:000        (Dsdt: BEB1C258, Facs: BEB5B080, XDsdt: BEB1C258, XFacs: 0)
+1:499  0:000        BEB1C258: 'DSDT', 'Notebook', Rev: 2, Len: 89226
+1:502  0:003        BEB5B080: 'FACS', Ver: 2, Len: 64
+1:502  0:000    1. BEB31FF8: 'APIC', 'Notebook', Rev: 3, Len: 114
+1:502  0:000    2. BEB32070: 'FPDT', 'Notebook', Rev: 1, Len: 68
+1:502  0:000    3. BEB320B8: 'ECDT', 'Notebook', Rev: 1, Len: 193
+1:502  0:000    4. BEB32180: 'LPIT', 'Notebook', Rev: 1, Len: 92
+1:502  0:000    5. BEB321E0: 'SSDT', 'zpoddult', Rev: 1, Len: 372
+1:502  0:000    6. BEB32358: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+1:502  0:000    7. BEB32898: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+1:502  0:000    8. BEB33370: 'SSDT', 'Cpu0Tst', Rev: 1, Len: 734
+1:502  0:000    9. BEB33650: 'SSDT', 'ApTst', Rev: 1, Len: 840
+1:502  0:000    10. BEB33998: 'MCFG', 'Notebook', Rev: 1, Len: 60
+1:502  0:000    11. BEB339D8: 'SSDT', 'DptfTabl', Rev: 1, Len: 12407
+1:502  0:000    12. BEB36A50: 'HPET', 'Notebook', Rev: 1, Len: 56
+1:502  0:000    13. BEB36A88: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+1:502  0:000    14. BEB36D20: 'SSDT', 'SaSsdt', Rev: 1, Len: 16103
+1:502  0:000    15. BEB3AC08: 'BGRT', 'Notebook', Rev: 0, Len: 56
+1:502  0:000    Tables in Rsdt: 16
+1:502  0:000    0. BEB1C148: 'FACP', 'Notebook', Rev: 2, Len: 268
+1:502  0:000        (Dsdt: BEB1C258, Facs: BEB5B040)
+1:502  0:000        BEB1C258: 'DSDT', 'Notebook', Rev: 2, Len: 89226
+1:505  0:003        BEB5B040: 'FACS', Ver: 0, Len: 64
+1:505  0:000    1. BEB31FF8: 'APIC', 'Notebook', Rev: 3, Len: 114
+1:505  0:000    2. BEB32070: 'FPDT', 'Notebook', Rev: 1, Len: 68
+1:505  0:000    3. BEB320B8: 'ECDT', 'Notebook', Rev: 1, Len: 193
+1:505  0:000    4. BEB32180: 'LPIT', 'Notebook', Rev: 1, Len: 92
+1:505  0:000    5. BEB321E0: 'SSDT', 'zpoddult', Rev: 1, Len: 372
+1:505  0:000    6. BEB32358: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+1:505  0:000    7. BEB32898: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+1:505  0:000    8. BEB33370: 'SSDT', 'Cpu0Tst', Rev: 1, Len: 734
+1:505  0:000    9. BEB33650: 'SSDT', 'ApTst', Rev: 1, Len: 840
+1:505  0:000    10. BEB33998: 'MCFG', 'Notebook', Rev: 1, Len: 60
+1:505  0:000    11. BEB339D8: 'SSDT', 'DptfTabl', Rev: 1, Len: 12407
+1:505  0:000    12. BEB36A50: 'HPET', 'Notebook', Rev: 1, Len: 56
+1:505  0:000    13. BEB36A88: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+1:505  0:000    14. BEB36D20: 'SSDT', 'SaSsdt', Rev: 1, Len: 16103
+1:505  0:000    15. BEB3AC08: 'BGRT', 'Notebook', Rev: 0, Len: 56
+1:505  0:000  Found UEFI Acpi 2.0 RSDP at BEB1C000
+1:505  0:000  Saving ACPI tables from RSDP BEB1C000 to EFI\CLOVER\ACPI\origin ...
+1:505  0:000   BEB1C000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+1:510  0:005    (Xsdt: BEB1C090, Rsdt: BEB1C028)
+1:510  0:000    BEB1C090: 'XSDT', 'Notebook', Rev: 1, Len: 164 -> XSDT.aml
+1:513  0:002    BEB1C028: 'RSDT', 'Notebook', Rev: 1, Len: 100 -> RSDT.aml
+1:516  0:002    Tables in Xsdt: 16
+1:516  0:000    0. BEB31EE8: 'FACP', 'Notebook', Rev: 5, Len: 268 -> FACP.aml
+1:518  0:002        (Dsdt: BEB1C258, Facs: BEB5B080, XDsdt: BEB1C258, XFacs: 0)
+1:518  0:000        BEB1C258: 'DSDT', 'Notebook', Rev: 2, Len: 89226 -> DSDT.aml
+1:524  0:005        BEB5B080: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+1:527  0:002    1. BEB31FF8: 'APIC', 'Notebook', Rev: 3, Len: 114 -> APIC.aml
+1:529  0:002    2. BEB32070: 'FPDT', 'Notebook', Rev: 1, Len: 68 -> FPDT.aml
+1:532  0:002    3. BEB320B8: 'ECDT', 'Notebook', Rev: 1, Len: 193 -> ECDT.aml
+1:534  0:002    4. BEB32180: 'LPIT', 'Notebook', Rev: 1, Len: 92 -> LPIT.aml
+1:537  0:002    5. BEB321E0: 'SSDT', 'zpoddult', Rev: 1, Len: 372 -> SSDT-0-zpoddult.aml
+1:540  0:002    6. BEB32358: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337 -> SSDT-1-Cpu0Ist.aml
+1:542  0:002    7. BEB32898: 'SSDT', 'CpuPm', Rev: 1, Len: 2776 -> SSDT-2-CpuPm.aml (Found hidden SSDT 4 pcs)
+1:545  0:002        * BBF91A98: '$', '', Rev: 0, Len: 23117  24 05 00 10 4D 5A 00 00 00 00 00 00 00 00 00 00 
+1:545  0:000        * BDB4C618: 'SSDT', 'ApIst', Rev: 1, Len: 1450  53 53 44 54 AA 05 00 00 01 D3 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x2_0-ApIst.aml
+1:548  0:002        * BDB4CC18: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 979  53 53 44 54 D3 03 00 00 01 B3 50 6D 52 65 66 00 Internal length = 979 -> SSDT-x2_1-Cpu0Cst.aml
+1:550  0:002        * BDB4BD98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 EF 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x2_2-ApCst.aml
+1:553  0:002  
+1:553  0:000    8. BEB33370: 'SSDT', 'Cpu0Tst', Rev: 1, Len: 734 -> SSDT-3-Cpu0Tst.aml
+1:556  0:002    9. BEB33650: 'SSDT', 'ApTst', Rev: 1, Len: 840 -> SSDT-4-ApTst.aml
+1:558  0:002    10. BEB33998: 'MCFG', 'Notebook', Rev: 1, Len: 60 -> MCFG.aml
+1:561  0:002    11. BEB339D8: 'SSDT', 'DptfTabl', Rev: 1, Len: 12407 -> SSDT-5-DptfTabl.aml
+1:564  0:003    12. BEB36A50: 'HPET', 'Notebook', Rev: 1, Len: 56 -> HPET.aml
+1:567  0:002    13. BEB36A88: 'SSDT', 'SataTabl', Rev: 1, Len: 664 -> SSDT-6-SataTabl.aml
+1:569  0:002    14. BEB36D20: 'SSDT', 'SaSsdt', Rev: 1, Len: 16103 -> SSDT-7-SaSsdt.aml
+1:573  0:003    15. BEB3AC08: 'BGRT', 'Notebook', Rev: 0, Len: 56 -> BGRT.aml
+1:575  0:002    Tables in Rsdt: 16
+1:575  0:000    0. BEB1C148: 'FACP', 'Notebook', Rev: 2, Len: 268 -> RSDT-FACP.aml
+1:578  0:002        (Dsdt: BEB1C258, Facs: BEB5B040)
+1:578  0:000        BEB1C258: 'DSDT', 'Notebook', Rev: 2, Len: 89226
+1:581  0:003        BEB5B040: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+1:584  0:002    1. BEB31FF8: 'APIC', 'Notebook', Rev: 3, Len: 114
+1:584  0:000    2. BEB32070: 'FPDT', 'Notebook', Rev: 1, Len: 68
+1:584  0:000    3. BEB320B8: 'ECDT', 'Notebook', Rev: 1, Len: 193
+1:584  0:000    4. BEB32180: 'LPIT', 'Notebook', Rev: 1, Len: 92
+1:584  0:000    5. BEB321E0: 'SSDT', 'zpoddult', Rev: 1, Len: 372
+1:584  0:000    6. BEB32358: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+1:584  0:000    7. BEB32898: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+1:584  0:000    8. BEB33370: 'SSDT', 'Cpu0Tst', Rev: 1, Len: 734
+1:584  0:000    9. BEB33650: 'SSDT', 'ApTst', Rev: 1, Len: 840
+1:584  0:000    10. BEB33998: 'MCFG', 'Notebook', Rev: 1, Len: 60
+1:584  0:000    11. BEB339D8: 'SSDT', 'DptfTabl', Rev: 1, Len: 12407
+1:584  0:000    12. BEB36A50: 'HPET', 'Notebook', Rev: 1, Len: 56
+1:584  0:000    13. BEB36A88: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+1:584  0:000    14. BEB36D20: 'SSDT', 'SaSsdt', Rev: 1, Len: 16103
+1:584  0:000    15. BEB3AC08: 'BGRT', 'Notebook', Rev: 0, Len: 56
+1:584  0:000  Found UEFI Acpi 1.0 RSDP at BEB1C000
+1:584  0:000  Printing ACPI tables from RSDP BEB1C000 ...
+1:584  0:000   BEB1C000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+1:584  0:000    (Xsdt: BEB1C090, Rsdt: BEB1C028)
+1:584  0:000    BEB1C090: 'XSDT', 'Notebook', Rev: 1, Len: 164
+1:584  0:000    BEB1C028: 'RSDT', 'Notebook', Rev: 1, Len: 100
+1:584  0:000    Tables in Xsdt: 16
+1:584  0:000    0. BEB31EE8: 'FACP', 'Notebook', Rev: 5, Len: 268
+1:584  0:000        (Dsdt: BEB1C258, Facs: BEB5B080, XDsdt: BEB1C258, XFacs: 0)
+1:584  0:000        BEB1C258: 'DSDT', 'Notebook', Rev: 2, Len: 89226
+1:587  0:003        BEB5B080: 'FACS', Ver: 2, Len: 64
+1:587  0:000    1. BEB31FF8: 'APIC', 'Notebook', Rev: 3, Len: 114
+1:587  0:000    2. BEB32070: 'FPDT', 'Notebook', Rev: 1, Len: 68
+1:587  0:000    3. BEB320B8: 'ECDT', 'Notebook', Rev: 1, Len: 193
+1:587  0:000    4. BEB32180: 'LPIT', 'Notebook', Rev: 1, Len: 92
+1:587  0:000    5. BEB321E0: 'SSDT', 'zpoddult', Rev: 1, Len: 372
+1:587  0:000    6. BEB32358: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+1:587  0:000    7. BEB32898: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+1:587  0:000    8. BEB33370: 'SSDT', 'Cpu0Tst', Rev: 1, Len: 734
+1:587  0:000    9. BEB33650: 'SSDT', 'ApTst', Rev: 1, Len: 840
+1:587  0:000    10. BEB33998: 'MCFG', 'Notebook', Rev: 1, Len: 60
+1:587  0:000    11. BEB339D8: 'SSDT', 'DptfTabl', Rev: 1, Len: 12407
+1:587  0:000    12. BEB36A50: 'HPET', 'Notebook', Rev: 1, Len: 56
+1:587  0:000    13. BEB36A88: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+1:587  0:000    14. BEB36D20: 'SSDT', 'SaSsdt', Rev: 1, Len: 16103
+1:587  0:000    15. BEB3AC08: 'BGRT', 'Notebook', Rev: 0, Len: 56
+1:587  0:000    Tables in Rsdt: 16
+1:587  0:000    0. BEB1C148: 'FACP', 'Notebook', Rev: 2, Len: 268
+1:587  0:000        (Dsdt: BEB1C258, Facs: BEB5B040)
+1:587  0:000        BEB1C258: 'DSDT', 'Notebook', Rev: 2, Len: 89226
+1:590  0:003        BEB5B040: 'FACS', Ver: 0, Len: 64
+1:590  0:000    1. BEB31FF8: 'APIC', 'Notebook', Rev: 3, Len: 114
+1:590  0:000    2. BEB32070: 'FPDT', 'Notebook', Rev: 1, Len: 68
+1:590  0:000    3. BEB320B8: 'ECDT', 'Notebook', Rev: 1, Len: 193
+1:590  0:000    4. BEB32180: 'LPIT', 'Notebook', Rev: 1, Len: 92
+1:590  0:000    5. BEB321E0: 'SSDT', 'zpoddult', Rev: 1, Len: 372
+1:590  0:000    6. BEB32358: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+1:590  0:000    7. BEB32898: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+1:590  0:000    8. BEB33370: 'SSDT', 'Cpu0Tst', Rev: 1, Len: 734
+1:590  0:000    9. BEB33650: 'SSDT', 'ApTst', Rev: 1, Len: 840
+1:590  0:000    10. BEB33998: 'MCFG', 'Notebook', Rev: 1, Len: 60
+1:590  0:000    11. BEB339D8: 'SSDT', 'DptfTabl', Rev: 1, Len: 12407
+1:590  0:000    12. BEB36A50: 'HPET', 'Notebook', Rev: 1, Len: 56
+1:590  0:000    13. BEB36A88: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+1:590  0:000    14. BEB36D20: 'SSDT', 'SaSsdt', Rev: 1, Len: 16103
+1:590  0:000    15. BEB3AC08: 'BGRT', 'Notebook', Rev: 0, Len: 56
